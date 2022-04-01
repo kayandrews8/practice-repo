@@ -5,8 +5,9 @@ body{
 #logo{
     background: #fd7e14;
     max-width: 200px;
-    max-width: 200px;
+    max-height: 200px;
     border-radius: 50%;
+    margin-top: .5em;
 }
 
 #main-header{
@@ -14,6 +15,9 @@ body{
     font-family: sans-serif;
 }
 
+/*.navbar{*/
+/*    background-color: #d9d0c6;*/
+/*}*/
 #greeting{
 
 }
