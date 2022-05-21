@@ -5,4 +5,11 @@ function reverseString(input){
     }
 }
 
+//Write a function that takes in a string and returns the most common vowel in the string
+function mostCommonVowel(str){
+    let wordArr = str.split("");
+    let newWordArr = wordArr.filter(char => char === 'a' || char === 'e' || char === 'i' || char === 'u')
+    return newWordArr.length
+}
+
 // console.log(reverseString('kaylah'));
